@@ -1,0 +1,56 @@
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+            margin: 10px;
+            padding: 10px 10px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            font-size: 22px;
+            font-family: cursive;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          body{
+            font-family: 'Chakra Petch', sans-serif;
+            background-image:url("https://wallpapercave.com/wp/wp5472361.jpg") ;
+            background-size: cover;
+            color: antiquewhite;
+          }
+
+          .header_div{
+            background:navy;
+          }
+
+          .header_div p{
+            letter-spacing: 3px;
+            font-size: 14px;
+            font-weight: bold;
+          }
+
+          .main_div button{
+            letter-spacing: 3px;
+            font-weight: bolder;
+          }
+
+          .copy_right_footer{
+            position: fixed;
+            background-color: black;
+            bottom: 0;
+            width: 100%;
+            line-height: 3;
+            font-size: 18px;
+            text-align: center;
+            text-shadow: 5px 5px 5px gold;
+          }
+         
